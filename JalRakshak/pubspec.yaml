@@ -1,0 +1,41 @@
+name: jal_rakshak
+description: Water conservation and reporting app
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Supabase for authentication and backend
+  supabase_flutter: ^2.5.0
+  geolocator: ^11.0.0
+  http: ^1.2.0
+  geocoding: ^3.0.0
+  share_plus: ^7.2.0 
+  
+  # Optional: For enhanced functionality
+  # geolocator: ^10.1.0  # For GPS location
+  # image_picker: ^1.0.4  # For camera/gallery
+  # permission_handler: ^11.0.1  # For permissions
+  # shared_preferences: ^2.2.2  # For local storage
+  
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Add assets if needed
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
